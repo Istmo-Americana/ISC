@@ -1,0 +1,1550 @@
+
+/*Using local font*/
+  @@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Thin.ttf");
+  }
+body{
+     margin:0;
+     overflow-x:  hidden !important;
+     font-family: 'Roboto', sans-serif;
+}
+
+strong {
+    font-weight: 800 !important;
+}
+.box-1 h4, .box-2 h4{
+  text-align: justify;
+  margin-right: 20px;
+  font-size: 20px !important;
+}
+.box-1 img, .box-2 img{
+  margin-top: 20px !important;
+}
+.box-2 h4{
+  margin-left: 10px;
+}
+.Image-form img{
+  margin-top: 20px;
+  margin-left: 50px
+  }
+.dropdown-content{
+  position: fixed !important;
+  left: 1px !important;
+}
+.lider-1{
+   background: url("../images/slider-1.png") !important;
+}
+
+.menu-b li{
+  margin-right:90px;
+}
+
+.social-bar{
+  position: fixed;
+  left: 0;
+  top: 180px;
+  z-index: 2000;
+}
+.social-bar ul{
+  list-style: none;
+  padding-left: 0;
+}
+.social-bar ul li a , .button-lol a{
+  display: inline-block;
+  color:#fff;
+  background-color: #000;
+  padding: 20px 20px;
+  text-decoration: none;
+  transition: all .5s;
+}
+.social-bar ul li a:hover{
+  padding-right:30px;
+  padding-left: 35px;
+}
+
+.dropdown-content li a{
+  width: 200px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts-2/icomoon.eot?vlosvc');
+  src:  url('../fonts-2/icomoon.eot?vlosvc#iefix') format('embedded-opentype'),
+    url('../fonts-2/icomoon.ttf?vlosvc') format('truetype'),
+    url('../fonts-2/icomoon.woff?vlosvc') format('woff'),
+    url('../fonts-2/icomoon.svg?vlosvc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-earth:before {
+  content: "\e903";
+}
+.icon-globe:before {
+  content: "\e903";
+}
+.icon-instagram:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+
+.general{
+  overflow-x: hidden !important;
+}
+.header{
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden !important;
+    position: fixed !important;
+    z-index: 999;
+    top: 0;
+    border-radius: 10px;
+    transition: height 0.5s;
+    display: flex;
+    width: 100%;
+    background:#212121;
+    padding-bottom: 40px;
+}
+.header h1{
+    font-size: 24px;
+}
+.ing-text h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+header div{
+  transition: height 0.3s;
+}
+header img{
+ height: 60px;
+ width: 60px;
+ transition: all 0.5s;
+ opacity: 0;
+}
+/* animation header*/
+header.smaller{
+    font-size: 10px;
+    opacity: 0.9;
+}
+.center img{
+  transition: all 2.5s;
+}
+
+.center-image.smaller{
+  margin-top: -900px;
+  padding-bottom: 800px;
+  opacity: 0;
+}
+
+header.smaller img{
+  opacity: .9;
+  height: 50px;
+  width: 50px;
+}
+.background-logo.smaller{
+  height: 60px;
+  opacity: .0;
+  width: 60px;
+}
+header.smaller h1{
+  padding: 20px 0px 0px 50px;
+  margin:0;
+}
+
+header.smaller div{
+  height: 10px;
+}
+
+/**/
+.background-foto-3{
+  height: 680px;
+  max-width: 100%;
+  background: url("../images/plan-de-estudios.png") no-repeat center;
+  margin-bottom: 50px;
+  background-size: 100%;
+}
+.background-foto{
+    height: 860px;
+    max-width: 100%;
+    background: url("../images/background.png") no-repeat center;
+    background-size: 100%;
+}
+
+.header h1{
+    margin: 30px;
+    padding: 40px 30px 30px 30px;
+    color: white;
+}
+.text-2{
+    padding-left: 7px;
+}
+.inicio{
+    height: 47px;
+    width: 20%;
+    transition: all 0.3s;
+    background-color:#9C27B0;
+}
+
+.form{
+  width: 100%;
+}
+.header h1 {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.header h1:hover{
+    color: red;
+}
+.plan-de-estudios{
+    height: 47px;
+    transition: all 0.3s;
+    width: 30%;
+    background-color: #FFEB3B;
+}
+.background-logo{
+    text-align: center;
+}
+.logo{
+    height: 94px;
+    transition: all 0.3s;
+    width: 170px;
+    background-color: #212121;
+}
+.center{
+    margin-top: 134px;
+    text-align: center;
+    padding-right: 0;
+    padding-top: 90px;
+}
+.center h3 {
+    font-size: 50px;
+    padding: 0;
+    text-align: center;
+    width: auto;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.perfiles-academicos{
+    height: 47px;
+    width: 30%;
+    background-color:#FFEB3B;
+}
+.becas{
+    height: 47px;
+    width: 20%;
+    background-color:#9C27B0;
+}
+.carusel{
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    height: 600px;
+    border-bottom: 2px solid black;
+    background: #E8E8E8;
+}
+/*separator*/
+.container {
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  padding-top:40px;
+  perspective: 1000px;
+}
+
+.carousel {
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(250px);
+
+}
+.b {
+  transform: rotateY(60deg) translateZ(250px);
+
+}
+.c {
+  transform: rotateY(120deg) translateZ(250px);
+
+}
+.d {
+  transform: rotateY(180deg) translateZ(250px);
+
+}
+.e {
+  transform: rotateY(240deg) translateZ(250px);
+
+}
+.f {
+  transform: rotateY(300deg) translateZ(250px);
+
+}
+
+ /* Profile section*/
+ .info{
+     width: 100%;
+     height: 800px;
+     background-color: #E8E8E8;
+     border-bottom: 1px solid black;
+     font-size: 20px;
+     letter-spacing: 1px;
+ }
+
+ .info-c img{
+     border-radius: 20px;
+     margin-right: 20px;
+     position: relative;
+     left: 3%;
+ }
+
+ .info-c{
+     display: flex;
+     width: 100%;
+ }
+
+.ing-text{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.text-5 h3{
+    width: auto;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.text-5 h4{
+    width: auto;
+    text-align: justify;
+    margin-right: 10px;
+    padding-top: 90px;
+    font-size: 30px;
+}
+
+
+.text-5{
+    padding-left: 100px;
+    width: 100%;
+    position: relative;
+    right:1%;
+}
+
+
+/* Seccion de perfil*/
+
+.perfil{
+    display: flex;
+    width: 100%;
+}
+
+.perfil h2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.perfil h3{
+    width: auto;
+    text-align: justify;
+    font-size: 25px;
+    margin-left:  30px;
+    margin-right: 25px;
+    color: white;
+}
+
+.aspirante{
+    width: 50%;
+    opacity: .9;
+    background-color: #2196F3;
+    height: 400px;
+}
+.egresado{
+    width: 50%;
+    opacity: .9;
+    background-color: #673AB7;
+    height: 400px;
+}
+
+/* Seccion de Footer*/
+
+.twitter:hover{
+  opacity: .7;
+}
+.facebook:hover{
+  opacity: .7;
+}
+.insta:hover{
+  opacity: .7;
+}
+.tittle-multi{
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+
+.tittle-multi h1{
+  padding-left: 30px;
+  margin: 0;
+}
+
+/** Seccion de becas**/
+.background-foto-2{
+    height: 800px;
+    max-width: 100%;
+    background: url("../images/beca-background.png") no-repeat center;
+    background-size: 100%;
+}
+.title-becas{
+  font-size: 60px;
+  position: relative;
+  width: 100%;
+  color: white;
+  top: 12%;
+}
+
+.title-becas h1{
+  padding-top: 120px;
+  text-align: center;
+  font-size: 120px;
+  margin-bottom: 0;
+}
+.title-becas h2{
+  margin:0;
+  text-align: center;
+  padding: 20px;
+  padding-top: 0;
+  font-size: 70px !important;
+}
+.info-becas{
+  width: 100%;
+  height: 800px;
+  background-color: #F6F2F2;
+
+}
+.info-becas img{
+  margin-left: 90px;
+}
+.info-becas h1{
+  margin-top: 0;
+  padding-top: 30px;
+  font-size: 60px;
+  text-align: center;
+}
+.info-2{
+  display: flex;
+  padding-top: 20px;
+}
+
+.text-1 h3 {
+  text-align: center;
+}
+
+.text-1 ul{
+  position: relative;
+  left:10%;
+  width: 100%;
+}
+
+.text-1{
+  font-size: 20px;
+  width: 60%;
+}
+
+.text-1 li{
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+.section-separator{
+  height: 90px;
+  width: 100%;
+  padding-top: 10px;
+  font-size: 30px;
+  color: white;
+  background: purple;
+  text-align: center;
+}
+.section-separator h3 {
+    margin: 13px;
+}
+.container-s{
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+.box-2 , .box-1{
+  width: 100%;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: center;
+  border: 1px solid black;
+  margin:20px;
+}
+
+/* PLAN DE ESTUDIOS */
+.title-studios{
+  font-size: 60px;
+  width: 100%;
+  color: white;
+  margin-left: 20px;
+  position: relative;
+  padding-top: 100px;
+  top: 22%;
+  text-align: center;
+}
+
+.container-plan{
+  width: 100%;
+  height: 90%;
+  margin: 20px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.first-row-plan{
+  width: 100%;
+
+}
+.first-row-plan ul{
+  margin-right: 50px;
+}
+.first, .second, .third{
+margin-left: 150px;
+width: 100%;
+text-align: left;
+display: flex;
+}
+
+.text-plan{
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+.primero{
+  width: 400px;
+  height: 300px;
+  background: url("../images/primero.png") no-repeat center;
+}
+.segundo{
+  width: 400px;
+  height: 300px;
+  background: url("../images/segundo.png") no-repeat center;
+}
+.tercero{
+  width: 400px;
+  height: 300px;
+  background: url("../images/tercero.png") no-repeat center;
+}
+.cuarto{
+  width: 400px;
+  height: 300px;
+  background: url("../images/cuarto.png") no-repeat center;
+}
+.quinto{
+  width: 400px;
+  height: 300px;
+  background: url("../images/quinto.png") no-repeat center;
+}
+.sexto{
+  width: 400px;
+  height: 300px;
+  background: url("../images/sexto.png") no-repeat center;
+}
+.septimo{
+  width: 400px;
+  height: 300px;
+  background: url("../images/septimo.png") no-repeat center;
+}
+.octavo{
+  width: 400px;
+  height: 300px;
+  background: url("../images/octavo.png") no-repeat center;
+}
+.test-container{
+  display: flex;
+  margin: auto;
+}
+
+.container-form{
+  width: 100%;
+  font-size: 20px;
+}
+
+.know-carrer{
+  width: 95%;
+  padding-left: 30px;
+  margin: auto;
+  padding-bottom: 20px;
+  height: 30px;
+  border-bottom: 1px solid black;
+}
+.know-carrer h2{
+  font-size: 20px !important;
+}
+.container-child{
+  height: 300px;
+  width: 50%;
+  margin-left: 65px !important;
+  text-align:left;
+}
+
+ input{
+  margin-top: 20px !important;
+  width: 60%!important;
+  border: 1px solid purple;
+  height: 40px;
+}
+label{
+   display: block;
+   padding-bottom: 10px;
+   padding-top: 20px;
+}
+.comments{
+  padding-top: 10px;
+  margin-left: 90px;
+}
+.button-2{
+  margin-top: 5px;
+  margin-bottom: 60px;
+  border: none !important;
+  color: white;
+  background: purple;
+  width: 100px;
+}
+
+.submit-button{
+  width: 30% !important;
+  margin-left: 90px;
+}
+.form-button{
+  text-align: left;
+  width: 100%;
+  margin-left: 60px;
+}
+/*--------------------s*/
+/*Seccion de contactos*/
+#map {
+  margin-top: 90px;
+  height: 400px;
+  width: auto;
+ }
+
+ /*Botton para english*/
+
+footer{
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  color: white;
+  background-color:  purple;
+}
+.first-row{
+  width: 1260px;
+  margin: 0 auto;
+}
+.social{
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.social img{
+    margin-top: 20px;
+    margin-left: 5px;
+    border: 2px solid white;
+}
+footer h4{
+  font-size: 20px;
+  padding-top: 70px;
+  padding-left: 50px;
+}
+.text-num h3{
+  margin-bottom: 0;
+}
+#phone-number{
+  margin-top: 0;
+  font-size: 25px;
+}
+.logo-school img{
+  margin-right: 200px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.number-phone{
+  display: flex;
+  margin-top: 60px;
+}
+.number-phone img{
+  padding-top: 14px;
+  margin-right: 20px;
+}
+.first-row{
+  display: flex;
+}
+.second-row{
+  width: 560px;
+  display: flex;
+  margin: 0 auto;
+}
+.second-row ul {
+  padding-left: 50px;
+}
+.second-row li {
+  padding-left: 5px;
+}
+.informacion-text{
+  margin-right: 150px;
+}
+
+.second-row div {
+  margin-right: 70px;
+}
+/*Fin del botton*/
+/*Hamburger Menu for Reponsive design*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?zh3sgs');
+  src:  url('../fonts/icomoon.eot?zh3sgs#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?zh3sgs') format('truetype'),
+    url('../fonts/icomoon.woff?zh3sgs') format('woff'),
+    url('../fonts/icomoon.svg?zh3sgs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu{
+  width: 50px;
+  height: 50px;
+  z-index: 999;
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+
+.btn, .btn-large{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+#dropdown1{
+  top: 410px !important;
+}
+
+.hamburger{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  line-height: 40px;
+  color: white;
+  top:10;
+  z-index: 1000;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: rgba(55,46,35,.8);
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+form{
+  margin-bottom: 0;
+}
+/**Canvas menu*/
+.carl-lol1{
+  padding-top: 0 !important;
+  z-index: 5000 !important;
+}
+
+. ul a img {
+  margin-top: 20px;
+}
+/*Responsive design*/
+
+/*IPAD RESOLUTION*/
+@media screen and (max-width: 921px){
+
+  .social-bar{
+    opacity: .3;
+  }
+
+  body {
+        overflow-x: hidden !important;
+    }
+
+  .general{
+    overflow-x: hidden !important;
+  }
+  .menu-b li{
+    margin-right:0px;
+  }
+  .first, .second, .third{
+    margin-left: 0 !important;
+  }
+
+  .first h3, .second h3, .third h3{
+    font-size: 30px;
+  }
+  .inicio , .plan-de-estudios,.perfiles-academicos, .becas{
+    display: none;
+  }
+
+  .logo{
+    width: 100%;
+    padding-right: 5px;
+  }
+  .header{
+    height: 65px;
+    border-radius:0;
+  }
+  .background-foto{
+    background-size: auto;
+    max-height: 720px;
+    margin-bottom: 0;
+  }
+  .center{
+    text-align: center;
+    width: auto;
+    margin-top: 40px;
+  }
+  .main-image{
+    position: static;
+    height: 35%;
+    left: 0;
+  }
+  .center h3{
+    font-size: 45px;
+    padding-top: 20px;
+  }
+  .tittle-multi h1{
+    padding-left: 10px;
+    font-size: 40px;
+  }
+  .container{
+    padding-top: 0;
+  }
+
+  .ing-text{
+    text-align: center;
+    font-size: 30px;
+  }
+  .hamburger{
+    display: block !important;
+  }
+  .info{
+    height: auto;
+  }
+  .info-c{
+    display: block;
+    text-align: center;
+  }
+  .info-c img{
+    position: static;
+    left: 0;
+    margin-left: 40px;
+    height: 420px;
+    width: 400px;
+  }
+  .text-5 h3{
+    width: auto;
+    padding-left: 0;
+    padding-left: 5px;
+    font-size: 35px;
+    text-align: center;
+  }
+  .text-5{
+    width: auto;
+    padding-left: 0;
+  }
+  .text-5 h4{
+    width: auto;
+    font-size: 25px;
+    padding-top: 0;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+  }
+  .perfil{
+    display: block;
+  }
+  .aspirante , .egresado{
+    width: auto;
+    height: 350px;
+    padding-top: 10px;
+    padding-left: 0;
+  }
+  .perfil h3{
+    font-size: 25px;
+  }
+
+  /*Formulario*/
+  .container-child {
+    margin-left: 20px;
+  }
+  .Image-form img{
+    width: 380px;
+    margin-left: 0;
+  }
+
+  .comments{
+    margin-left: 100px;
+  }
+
+  .comments label{
+    padding-top: 10px;
+    padding-bottom: 2px;
+  }
+  .know-carrer{
+    padding-left: 0;
+  }
+
+/*Footer**/
+
+.img{
+    display: none;
+}
+
+.social img{
+    padding-top:0px;
+    border: 2px solid white;
+    padding-left:0px;
+}
+
+/*Ipad becas**/
+.background-foto-2{
+  height: 520px;
+}
+.title-becas{
+text-align: center;
+font-size: 40px;
+}
+
+.title-becas h1{
+left: 0%;
+}
+
+.title-becas h2{
+margin:0;
+width: 100%;
+padding:0;
+font-size: 40px !important;
+}
+
+.button-1{
+background:none
+}
+
+.info-becas{
+width: 100%;
+height: 900px;
+background-color: #F6F2F2;
+}
+
+.info-becas img{
+text-align: center;
+position: static;
+}
+
+.info-becas h1{
+margin-top: 0px;
+padding-top: 50px;
+margin-left: 20px;
+font-size: 40px;
+text-align: center;
+}
+
+.info-2{
+display:block;
+width: 90%;
+text-align: center;
+padding-top: 0px;
+}
+
+.text-1 h3 {
+text-align: center;
+padding-left: 90px;
+}
+
+.text-1 ul{
+width: 80%;
+text-align: left;
+}
+
+.text-1{
+font-size: 20px;
+width: 100%;
+text-align: left;
+}
+
+.text-1 li{
+padding-top: 30px;
+font-size: 18px;
+}
+.menu-b{
+  text-align: left !important;
+  width: auto !important;
+}
+
+.button{
+background:none;
+}
+
+.container-child{
+margin-left: 20px;
+}
+
+.container-s h4{
+  text-align: justify !important;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+/*Contacts form*/
+#map{
+  margin-top: 20px;
+}
+
+/*Plan de estudios*/
+
+.background-foto-3{
+  height: 520px;
+}
+.title-studios{
+  font-size: 40px;
+}
+.lol{
+  display: none;
+}
+
+  .container-plan{
+    display: flex;
+  }
+  .first-row-plan , .second-row-plan{
+    left: 0;
+    margin: 10px;
+  }
+
+
+  /*Footer*/
+  .logo-school img{
+    margin-right: 30px;
+  }
+  .informacion-text{
+    margin-right: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 800px){
+  .first h3, .second h3, .third h3{
+    font-size: 20px;
+  }
+  .Image-form img {
+    display: none;
+  }
+  .container-plan{
+    font-size: 13px;
+  }
+  .carusel{
+    height: auto;
+  }
+  .logo-school img{
+    display: none;
+  }
+  .second-row{
+    width: auto;
+  }
+  .background-foto-3{
+    height: 520px;
+    width: 100%;
+  }
+  .title-studios{
+    font-size: 40px;
+  }
+  .lol{
+    display: none;
+  }
+
+  .container-plan{
+    display: block;
+  }
+  .first-row-plan , .second-row-plan{
+    left: 20%;
+    margin: 10px;
+  }
+
+    .inicio , .plan-de-estudios,.perfiles-academicos, .becas{
+      display: none;
+    }
+    .logo{
+      width: 100%;
+      padding-right: 5px;
+    }
+    .header{
+      border-radius:0;
+    }
+    .background-foto{
+      background-size: auto;
+      max-height: 720px;
+      margin-bottom: 0;
+    }
+    .center{
+      text-align: center;
+      width: auto;
+      margin-top: 40px;
+    }
+    .main-image{
+      position: static;
+      height: 35%;
+      left: 0;
+    }
+    .center h3{
+      font-size: 40px;
+      padding-top: 20px;
+      width: auto;
+
+    }
+    .tittle-multi h1{
+      padding-left: 10px;
+      font-size: 40px;
+    }
+    .container{
+      padding-top: 0;
+    }
+    .ing-text{
+      text-align: center;
+      font-size: 30px;
+    }
+    .hamburger{
+      display: block !important;
+    }
+    .info{
+      height: auto;
+    }
+    .info-c{
+      display: block;
+      text-align: center;
+    }
+    .info-c img{
+      position: static;
+      left: 0;
+      margin-left: 40px;
+      height: 500px;
+      width: 350px;
+    }
+    .text-5 h3{
+      font-size: 35px;
+    }
+    .text-5{
+      width: auto;
+      padding-left: 0;
+    }
+    .text-5 h4{
+      width: auto;
+      font-size: 25px;
+      padding-top: 0;
+      margin-right: 10px;
+    }
+    .perfil{
+      display: block;
+    }
+    .aspirante , .egresado{
+      width: auto;
+      height: 300px;
+      padding-top: 10px;
+      padding-left: 0;
+    }
+    .perfil h3{
+      font-size: 25px;
+    }
+
+    /*Formulario*/
+    .container-child {
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    .submit-button{
+      text-align: center;
+      width: auto !important;
+      margin-left: 60px;
+    }
+    .submit-button input {
+      width: 50% !important;
+    }
+    .comments{
+      margin-left: 70px;
+    }
+
+    .comments label{
+      padding-top: 10px;
+      padding-bottom: 2px;
+    }
+    .know-carrer{
+      padding-left: 0;
+    }
+
+  /*Footer**/
+
+  .img{
+      display: none;
+  }
+
+  .social img{
+      padding-top:0px;
+      padding-left:0px;
+  }
+
+
+/**LUIS'S CODE FOR RESPONSIVE DESIGN  BECAS*/
+.background-foto-2{
+  height: 400px;
+}
+.title-becas{
+text-align: center;
+font-size: 40px;
+}
+
+.title-becas h1{
+left: 0%;
+}
+
+.title-becas h2{
+margin:0;
+width: 100%;
+padding:0;
+font-size: 40px !important;
+}
+
+.button-1{
+background:none
+}
+
+.info-becas{
+width: 100%;
+height: 900px;
+background-color: #F6F2F2;
+}
+
+.info-becas img{
+text-align: center;
+position: static;
+}
+
+.info-becas h1{
+margin-top: 0px;
+padding-top: 50px;
+margin-left: 40px;
+font-size: 40px;
+text-align: center;
+}
+
+.info-2{
+display:block;
+padding-top: 0px;
+}
+
+.text-1 h3 {
+text-align: center;
+}
+
+.text-1 ul{
+text-align: left;
+width: 100%;
+}
+
+.text-1{
+font-size: 20px;
+width: 100%;
+}
+
+.text-1 li{
+padding-top: 30px;
+font-size: 18px;
+}
+
+.button{
+background:none;
+}
+
+.container-child{
+margin-left: 20px;
+}
+
+.container-s h4{
+  text-align: justify !important;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+/*Contacts form*/
+#map{
+  margin-top: 20px;
+}
+
+
+}
+/*Write code above this line*/
+
+/*MOBILE PHONE*/
+
+@media screen and (max-width:600px){
+
+  .ing-text h1{
+    font-size: 35px;
+  }
+  .Image-form img {
+    display: none;
+  }
+  .text-1 h3{
+    padding-left: 50px;
+  }
+  .box-2, .box-1{
+    width: auto;
+  }
+  .title-studios h1{
+    font-size: 40px;
+    margin-top: 20px
+  }
+  .general h1 {
+    font-size: 40px;
+  }
+
+  .general h3{
+    font-size: 30px;
+  }
+  .number-phone{
+    display: none;
+  }
+  .first-row{
+    width: 60%;
+    text-align: center;
+  }
+  .second-row{
+    font-size: 14px;
+  }
+  .second-row li{
+    padding-left: 0;
+  }
+  .background-foto{
+    max-height: 650px;
+  }
+  .center img {
+    height: 200px;
+  }
+
+  .center h3{
+    margin: 0;
+    margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .know-carrer{
+    width: 100%;
+    text-align: center;
+  }
+  .tittle-multi{
+    margin-top: 20px;
+  }
+  .test-container{
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .container-child{
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .submit-button{
+    text-align: left;
+  }
+
+  /*Seccion the becas*/
+  .background-foto-2{
+    height: 400px;
+  }
+  .container-s{
+    display: block;
+  }
+  .squares{
+    height: 850px;
+  }
+  .container-plan{
+    margin-left: -10px;
+    margin-right: 20px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .first-row-plan, .second-row-plan{
+    margin-left: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .background-foto-3{
+    height: 420px;
+    margin-bottom: 0;
+  }
+  .perfil h3{
+    width: 87%;
+  }
+  .title-studios{
+    padding-top: 20px;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .container-s h4{
+    font-size: 20px;
+  }
+
+  .aspirante, .egresado{
+    height: 400px;
+  }
+  footer div h3{
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .Image-form img {
+    display: none;
+  }
+  .first-row{
+    width: 100%;
+  }
+  .second-row{
+    display: none;
+  }
+  .center{
+    padding: 0;
+    width: 100%;
+    padding-top: 140px;
+}
+  .center h3{
+    font-size: 30px;
+  }
+  .info-c img{
+    height: 320px;
+    width: 210px;
+    margin: 0;
+  }
+  .text-5 h3{
+    font-size: 20px;
+  }
+  .text-5 h4{
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .perfil h3{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  .title-studios{
+    padding-top: 50px;
+    font-size: 20px;
+  }
+  .background-foto-3{
+    height: 320px;
+  }
+  .text-plan{
+    font-size: 20px;
+  }
+  .first, .second, .third{
+    display: block;
+
+  }
+
+  .first div, .second div, .third div{
+    height: auto;
+  }
+  .background-foto-2{
+    height: 290px;
+  }
+
+  .title-becas h1{
+     padding-top: 80px;
+      font-size: 40px;
+  }
+  .title-becas h2{
+    display: none;
+  }
+  .info-becas img{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+  }
+  .aspirante, .egresado{
+    height: 300px;
+  }
+}
+
+/*------*----------**/
+  /*Copyright (c) 2017 Copyright Digital Legwich.inc All Rights Reserved. */
