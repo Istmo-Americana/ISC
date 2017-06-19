@@ -14,15 +14,16 @@
                 <div class="social-bar-container">
                   <div class="social-bar">
                         <ul>
-                          <li>
-                            <a href="http://www." class="icon-facebook"></a>
-                          </li>
-                          <li>
-                            <a href="http://www." class="icon-twitter"></a>
-                          </li>
-                          <li>
-                            <a href="http://www." class="icon-instagram"></a>
-                          </li>
+                            <li>
+                  <a href="https://www.facebook.com/Universidad-Istmo-Americana-153904661343430/"
+                   class="icon-facebook"></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/uistmoamericana?lang=es" class="icon-twitter"></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/uistmoamericana/" class="icon-instagram"></a>
+                </li>
                           <div class="button-lol">
                             <a class='dropdown-button icon-earth' href='#' data-activates='dropdown1'></a>
                             <ul id='dropdown1' class='dropdown-content'>
@@ -97,7 +98,7 @@
                        <section class="background-body">
                           <div class="center">
                               <img src="images/istmo.png" alt="Logo" class="center-image main-image">
-                              <h3>Facultad de Ingeniería en Desarrollo y Gestión del Software</h3>
+                              <h3>Facultad de Ingeniería en Desarrollo y <br> Gestión del Software</h3>
                           </div>
                       </section>
               </div>
@@ -128,7 +129,7 @@
                       <img src="images/students.jpeg" alt="Martin,Alfredo" width="400px" height="500px">
                       <div class="text-5">
                           <h4 class="dev">
-                            La Licenciatura en Ingeniería en Desarrollo y Gestión del software tiene como objetivo formar profesionales con conocimientos y habilidades en el diseño y la gestión de proyectos de desarrollo de software, sistemas de información, y aplicaciones para dispositivos móviles, serán capaces de formular propuestas innovadoras que contribuyan al incremento de la productividad de la empresa.
+                            La licenciatura en ingeniería en desarrollo y gestión del software tiene como objetivo formar profesionales con conocimientos y habilidades en el diseño y la gestión de proyectos de desarrollo de software, sistemas de información, y aplicaciones para dispositivos móviles, serán capaces de formular propuestas innovadoras que contribuyan al incremento de la productividad de la empresa.
                           </h4>
                       </div>
                   </div>
@@ -150,7 +151,7 @@
                             <strong>Perfil del Egresado</strong>
                           </h2>
                           <h3>
-                                Los egresados de ingeniería en Desarrollo y Gestión del software  se caracterizan por una sólida formación técnica, profesional y científica,  la cual deberá ir combinada con bases humanísticas que les permiten desempeñarse exitosamente en el ámbito profesional. De igual manera adquirirá  conocimientos, habilidades y actitudes
+                                Los egresados de ingeniería en desarrollo y gestión del software se caracterizan por una sólida formación técnica, profesional y científica, la cual deberá ir combinada con bases humanísticas que les permiten desempeñarse exitosamente en el ámbito profesional. De igual manera adquirirá conocimientos, habilidades y actitudes
                           </h3>
                       </div>
                   </div>
@@ -180,7 +181,8 @@
                   </div>
       					</div>
                 <div class="submit-button">
-                      <input type="submit" name="enviar" class="button-2" id="button"/>
+                      <input type="submit" name="enviar" class="button-2" id="button"
+                      value="Enviar"/>
                 </div>
                 </form>
       				</div>
@@ -194,7 +196,7 @@
                           <img src="images/phone.png" alt="Telefono" height="80" width="80">
                             <div class="text-num">
                                 <h3>Lada sin costo</h3>
-                                <h3 id="phone-number">01 800 00 00 438</h3>
+                                <h3 id="phone-number">921 210-9594</h3>
                             </div>
                         </div>
                     </div>
@@ -221,14 +223,20 @@
                     <div class="know">
                       <h3>Conocenos</h3>
                       <ul>
-                        <li>Planes de estudios</li>
-                        <li>Becas</li>
+                        <a href="spanish/plan-de-estudios.html">
+                          <li>Planes de estudios</li>
+                        </a>
+                        <a href="spanish/Becas.html">
+                          <li>Becas</li>
+                        </a>
                       </ul>
                     </div>
                     <div class="direct">
                       <h3>Dirección</h3>
                        <ul>
-                         <li>Contacto</li>
+                        <a href="spanish/contacto.html">
+                          <li>Contacto</li>
+                         </a>
                        </ul>
                     </div>
                   </div>
@@ -243,58 +251,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
       <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-      <script type="text/javascript">
-      function init() {
-          window.addEventListener('scroll', function(e){
-              var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                  shrinkOn = 300,
-                  header = document.querySelector(".header");
-                  header2 = document.querySelector(".center-image");
-                  header3 = document.querySelector(".social-bar");
-                  console.log(header);
-                  console.log(header2);
-                  console.log(header3);
-              if (distanceY > shrinkOn) {
-                  classie.add(header,"smaller");
-                  classie.add(header2,"smaller");
-                  classie.add(header3,"smaller");
-              } else {
-                  if (classie.has(header,"smaller")) {
-                      classie.remove(header,"smaller");
-                      classie.remove(header2,"smaller");
-                      classie.add(header3,"smaller");
-                  }
-              }
-          });
-      }
-      window.onload = init();
-
-      /**Nav bar*/
-      $(".button-collapse").sideNav();
-  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-  //$('.collapsible').collapsible();
-      $('.button-collapse').sideNav({
-      menuWidth: 260, // Default is 300
-      edge: 'left', // Choose the horizontal origin
-      closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      draggable: true // Choose whether you can drag to open on touch screens
-    }
-  );
-
-    $('.dropdown-button').dropdown({
-       inDuration: 300,
-       outDuration: 225,
-       constrainWidth: false, // Does not change width of dropdown to that of the activator
-       hover: false, // Activate on hover
-       gutter: 0, // Spacing from edge
-       belowOrigin: false, // Displays dropdown below the button
-       alignment: 'left', // Displays dropdown with edge aligned to the left of button
-       stopPropagation: false // Stops event propagation
-     }
-   );
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
-
-      </script>
+      <script type="text/javascript" src="js/index.js"></script>
   </div>
     </body>
 </html>

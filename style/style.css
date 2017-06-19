@@ -1056,9 +1056,13 @@ background:none;
 margin-left: 20px;
 }
 
+.box-1 h1 , .box-2 h1{
+  font-size: 30px !important;
+}
 .container-s h4{
   text-align: justify !important;
   margin-right: 15px;
+  font-size: 18px !important;
   margin-left: 10px;
 }
 /*Contacts form*/
@@ -1425,7 +1429,7 @@ margin-left: 20px;
 
   /*Seccion the becas*/
   .background-foto-2{
-    height: 400px;
+    height: 380px;
   }
   .container-s{
     display: block;
