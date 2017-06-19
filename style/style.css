@@ -827,6 +827,10 @@ form{
 /*IPAD RESOLUTION*/
 @media screen and (max-width: 921px){
 
+  .box-1 h1, .box-2 h1 {
+    font-size: 15px !important;
+  }
+
   .social-bar{
     opacity: .3;
   }
